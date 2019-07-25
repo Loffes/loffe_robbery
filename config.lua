@@ -27,13 +27,13 @@ Translation = {
     },
     ['fr'] = {
         ['shopkeeper'] = 'Commerçant',
-        ['robbed'] = 'Je viens juste d'être braqué, je n'ai ~r~plus d\'argent à donner~s~!',
+        ['robbed'] = 'Je viens juste d\'être braqué, je n\'ai ~r~plus d\'argent à donner~s~!',
         ['cashrecieved'] = 'Vous avez:',
         ['currency'] = '$', -- mettez € si vous utilisez l'euro.
         ['scared'] = 'Intimidation:',
         ['no_cops'] = 'Il n\'y a ~r~pas assez~s~ de policier en service.',
         ['cop_msg'] = 'Une photo du voleur a été envoyé depuis les caméras de surveillance!',
-        ['set_waypoint'] = 'Mettre un marker jusqu'au magasin',
+        ['set_waypoint'] = 'Mettre un marker jusqu\'au magasin',
         ['hide_box'] = 'Fermer cette boite.',
         ['robbery'] = 'Braquage en cour',
         ['walked_too_far'] = 'Vous vous êtes trop éloigné!'
