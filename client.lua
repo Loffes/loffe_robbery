@@ -319,20 +319,6 @@ loadDict = function(dict)
     end
 end
 
-RegisterCommand('bag', function()
-    local model = GetHashKey('prop_poly_bag_01')
-    RequestModel(model)
-    while not HasModelLoaded(model) do
-        Wait(0)
-    end
-
-    local object = CreateObject(model, GetEntityCoords(PlayerPedId()), false, false)
-    AttachEntityToEntity(object, PlayerPedId(), GetPedBoneIndex(PlayerPedId(), 28422), 0.0, 0.0, 0.0, -15.0, -62.0, 10.0, 1, 1, 0, 0, 2, 1)
-    AttachEntityToEntity(object, PlayerPedId(), GetPedBoneIndex(PlayerPedId(), 60309), 0.0, 0.0, 0.0, -15.0, -62.0, 10.0, 1, 1, 0, 0, 2, 1)
-    Wait(2000)
-    DeleteObject(object)
-end)
-
 function DrawText3D(coords, text)
     local onScreen, _x, _y = World3dToScreen2d(coords.x, coords.y, coords.z)
     local pX, pY, pZ = table.unpack(GetGameplayCamCoords())
