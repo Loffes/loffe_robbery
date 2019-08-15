@@ -12,6 +12,19 @@ Config.Shops = {
 }
 
 Translation = {
+    ['tr'] = {
+        ['shopkeeper'] = 'Bakkal Osman',
+        ['robbed'] = "Şerefsizin biri zaten beni soydu! Hiç param kalmadı!!",
+        ['cashrecieved'] = 'Elde ettin :',
+        ['currency'] = '$',
+        ['scared'] = 'Altına Sılçmış:',
+        ['no_cops'] = 'Yeterli aynasız yok.',
+        ['cop_msg'] = 'Y***ağı yedin! Fotoğrafına güvenlik kamerasınden ulaşmışlar. Tüm polisler seni arıyor!',
+        ['set_waypoint'] = 'Soyulan dükkanı GPS\'de işaretle',
+        ['hide_box'] = 'Pencereyi kapat',
+        ['robbery'] = 'Soygun devam ediyor...',
+        ['walked_too_far'] = 'Dükkandan uzaklaştığın için soygun başarısız!'
+    },
     ['en'] = {
         ['shopkeeper'] = 'shopkeeper',
         ['robbed'] = "I was just robbed and ~r~don't ~w~have any money left!",
