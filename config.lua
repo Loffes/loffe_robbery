@@ -25,6 +25,19 @@ Translation = {
         ['robbery'] = 'Robbery in progress',
         ['walked_too_far'] = 'You walked too far away!'
     },
+    ['nl'] = {
+        ['shopkeeper'] = 'winkelier',
+        ['robbed'] = "Ik ben net beroofd en ik heb ~r~geen ~w~geld meer over!",
+        ['cashrecieved'] = 'Je hebt:',
+        ['currency'] = '$',
+        ['scared'] = 'Bang:',
+        ['no_cops'] = 'Er zijn ~r~niet ~w~genoeg agenten online!',
+        ['cop_msg'] = 'We hebben een foto van de overvaller gestuurd die genomen is door de CCTV camera!',
+        ['set_waypoint'] = 'Stel een waypoint in naar de winkel',
+        ['hide_box'] = 'Sluit deze doos',
+        ['robbery'] = 'Overval gaande',
+        ['walked_too_far'] = 'Je bent te ver weg gelopen!'
+    },    
     ['sv'] = {
         ['shopkeeper'] = 'butiksbiträde',
         ['robbed'] = 'Jag blev precis rånad och har inga pengar kvar!',
